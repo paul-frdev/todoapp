@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+    background: #f6f5f8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1230px;
+    min-height: 100vh;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.app > h1 {
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+.form,
+.card {
+    max-width: 660px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.card {
+    align-items: baseline;
+    border-bottom: 2px solid #949494;
+}
+
+.card:last-child {
+    border-bottom: none;
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-container__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.form-container__input > label {
+    margin-bottom: 5px;
+    color: #524f4f;
+}
+.form-container__input > input {
+    border: 1px solid #7fb4d3;
+    min-height: 30px;
+    background-color: #f6f5f8;
+    border-radius: 17px;
+    margin-right: 10px;
+    min-width: 180px;
+    padding: 0 10px;
+}
+
+.form-container__btn {
+    height: 30px;
+    width: 80px;
+    color: #ffff;
+    background-color: #1a9cfe;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container__btn:disabled {
+    cursor: wait;
+    background-color: #949494;
+}
+
+.card {
+}
+
+h1 {
+    color: #1274b9;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    margin-top: 10px;
+    color: #524f4f;
+}
+
+.card-button {
+    height: 30px;
+    width: 80px;
+    color: #ffff;
+    background-color: #2baa69;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.hide-button {
+    display: none;
+}
+
+.line-through {
+    color: #949494;
+    text-decoration: line-through;
+}
+
+.line-through > h1 {
+    color: #949494;
+    text-decoration: line-through;
+}
+
+.line-through > p {
+    color: #949494;
+    text-decoration: line-through;
+}
